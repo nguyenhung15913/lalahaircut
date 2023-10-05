@@ -10,7 +10,8 @@ function App() {
       {/* Nav */}
       <Nav />
       {/* Home */}
-      <Home />
+       <Services />
+       <Hours/>
       {/* About */}
       <About />
       <PhotoGallery />
