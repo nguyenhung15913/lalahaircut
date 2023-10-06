@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Hours from './pages/Hours';
+import PhotoGallery from './pages/PhotoGallery';
+
 function App() {
   return (
     <div className="App">
