@@ -4,7 +4,7 @@ function Nav() {
   return (
     <div className='nav-bar'> 
         <div className='logo'>
-            <h1>La La HairCut</h1>
+            <img src="./logo.png" alt="logo" />
         </div>
 
         <ul className='menu'>

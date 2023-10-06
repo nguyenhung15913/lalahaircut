@@ -1,0 +1,41 @@
+  .about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-us {
+    padding: 4rem;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+
+  .about-us h1 {
+    color: #262626;
+  }
+
+  .about-us p {
+    font-size: 1.5rem;
+  }
+
+  .picture-frame {
+    width: 40%;
+  }
+
+  .Slogan {
+    width: 30%;
+  }
+
+  .about-us img {
+    width: 80%;
+  }
+
+
+
+  
+ 
+
+  

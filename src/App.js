@@ -1,6 +1,8 @@
 
 import Home from './pages/Home';
 import Nav from './components/Nav'
+import About from './pages/About';
+import PhotoGallery from './pages/PhotoGallery';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       {/* Home */}
       <Home />
       {/* About */}
+      <About />
+      <PhotoGallery />
       {/* Services */}
       {/* Hours */}
       {/* Prices */}

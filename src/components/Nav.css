@@ -1,7 +1,9 @@
 .nav-bar {
     display: flex;
     justify-content: space-around;
-    background-color: #161616;
+    background-color: #262626;
+    position: sticky;
+    z-index: 99999;
 }
 
 .nav-bar ul {
@@ -22,6 +24,13 @@
     color: #fdf58c;
 }
 
-.logo {
-    color: #f4f4f4 ;
+.logo  {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
 }
