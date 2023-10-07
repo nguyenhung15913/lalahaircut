@@ -1,23 +1,22 @@
 
-import './App.css';
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Hours from './pages/Hours';
-import PhotoGallery from './pages/PhotoGallery';
+
+import "./App.css"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import PhotoGallery from "./pages/PhotoGallery";
+import Contact from "./pages/Contact"
 
 function App() {
   return (
-    <div className="App">
-      {/* Home */}
-       <Services />
-       <Hours/>
-      {/* About */}
-      {/* Services */}
-      {/* Hours */}
-      {/* Prices */}
-      {/* Contact */}
-    </div>
+   
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+        <Route path="/gallery" element={<PhotoGallery />} />
+        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="*" element={<Layout />} /> */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 

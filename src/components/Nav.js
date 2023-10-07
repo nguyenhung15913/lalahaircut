@@ -9,10 +9,13 @@ function Nav() {
 
         <ul className='menu'>
             <li>
-                <a href=''>Home</a>
+                <a href='/'>Home</a>
             </li>
             <li>
-                <a href=''>About</a>
+                <a href='#about'>About</a>
+            </li>
+            <li>
+                <a href='/gallery'>Photo Gallery</a>
             </li>
             <li>
                 <a  href=''>Services</a>
@@ -24,7 +27,7 @@ function Nav() {
                 <a href=''>Prices</a>
             </li>
             <li>
-                <a href=''>Contact</a>
+                <a href='/Contact'>Contact</a>
             </li>
         </ul>
     </div>
