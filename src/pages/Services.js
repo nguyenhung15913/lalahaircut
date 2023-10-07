@@ -4,7 +4,7 @@ export default function Services() {
   return (
     <div className='service'>
         
-  <img  className='priceimg' src={require(`./../images/pricelist.png`)}></img>
+  <img  className='priceimg' src={require(`./../images/pricetest.png`)}></img>
 
     </div>
   )
