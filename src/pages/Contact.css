@@ -1,6 +1,5 @@
 .contact-container {
     display: flex;
-    width: 70%;
     justify-content: center;
     align-items: center;
 }
@@ -10,7 +9,7 @@
 }
 
 .contact-box {
-    width: 50%;
+    width: 40%;
 }
 
 .contact-box img {

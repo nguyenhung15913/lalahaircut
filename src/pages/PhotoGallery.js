@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 import "./Gallery.css"
-
+import Nav from "../components/Nav"
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
@@ -10,7 +10,7 @@ function PhotoGallery() {
         {
           src: "./hair-1.jpeg",
           width: 1,
-          height: 1,
+          height: 1.5,
           key: "1"
         },
         {
@@ -50,13 +50,13 @@ function PhotoGallery() {
           key: "7"
         },
         {
-          src: "./hair-8.jpeg",
+          src: "./hair-7.jpeg",
           width: 1,
           height: 1,
           key: "8"
         },
         {
-          src: "./hair-8.jpeg",
+          src: "./hair-7.jpeg",
           width: 1,
           height: 1,
           key: "9"
@@ -77,28 +77,32 @@ function PhotoGallery() {
     };
 
   return (
+    <div>
+      <Nav/>
       <div className="image-gallery-container">
-            <div className="image-gallery">
-              <div className="gallery">
-                <Gallery photos={photos} onClick={openLightbox} />
-                  <ModalGateway>
-                      {viewerIsOpen ? (
-                      <Modal onClose={closeLightbox}>
-                          <Carousel
-                          currentIndex={currentImage}
-                          views={photos.map(x => ({
-                              ...x,
-                              srcset: x.srcSet,
-                              caption: x.title
-                          }))}
-                          />
-                      </Modal>
-                      ) : null}
-                  </ModalGateway>
+                  <div className="image-gallery">
+                    <div className="gallery">
+                      <Gallery photos={photos} onClick={openLightbox} />
+                        <ModalGateway>
+                            {viewerIsOpen ? (
+                            <Modal onClose={closeLightbox}>
+                                <Carousel
+                                currentIndex={currentImage}
+                                views={photos.map(x => ({
+                                    ...x,
+                                    srcset: x.srcSet,
+                                    caption: x.title
+                                }))}
+                                />
+                            </Modal>
+                            ) : null}
+                        </ModalGateway>
+                    </div>
+                      
+                  </div>
               </div>
-                
-            </div>
-        </div>
+    </div>
+      
   )
 }
 
