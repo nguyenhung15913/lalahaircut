@@ -24,10 +24,13 @@
     top: 300px;
     height: 100px;
     
+<<<<<<< HEAD
     
 }
 .h1:hover{
     background-color: rgb(197, 127, 255);
+=======
+>>>>>>> fa4511ffd53e985f27cee8f86d7026145c3debe0
 }
 
 .tue{
@@ -38,7 +41,11 @@
     font-size:inherit   ;
 }
 .tuetitle{
+<<<<<<< HEAD
     font-size: 31px;  
+=======
+    font-size: 31px;
+>>>>>>> fa4511ffd53e985f27cee8f86d7026145c3debe0
 }
 .wed{
     
