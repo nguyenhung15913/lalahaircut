@@ -1,0 +1,18 @@
+.services{
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 9rem;
+    margin: 0 auto;
+    background-color: rgb(251, 251, 251);
+}
+.service {
+    text-align: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    
+    padding:8px;
+   border:1px solid #fdf58c;
+  
+  }

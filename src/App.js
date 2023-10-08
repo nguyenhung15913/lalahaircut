@@ -1,19 +1,16 @@
 
+import './App.css';
 import Home from './pages/Home';
-import Nav from './components/Nav'
 import About from './pages/About';
-import PhotoGallery from './pages/PhotoGallery';
-
+import Services from './pages/Services';
+import Hours from './pages/Hours';
 function App() {
   return (
     <div className="App">
-      {/* Nav */}
-      <Nav />
       {/* Home */}
-      <Home />
+       <Services />
+       <Hours/>
       {/* About */}
-      <About />
-      <PhotoGallery />
       {/* Services */}
       {/* Hours */}
       {/* Prices */}
