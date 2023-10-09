@@ -1,6 +1,6 @@
 .hours{
     display: flex;
-    gap: 3rem;
+    gap:    1rem;
     justify-content: center;
     align-items: center;
     padding: 3rem 0;
@@ -8,114 +8,15 @@
     background-color: rgb(251, 251, 251);
 }
 .day {
+    padding: 1rem;
     text-align: center;
     transition: background-color 0.3s;
     cursor: pointer;
     background-color:rgb(242, 239, 239);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   }
   
   .day:hover {
     background-color: #fdf58c; /* Change the background color on hover */
     transform: scale(1.05); /* Add a slight scale effect on hover */
   }
-/*   .mon{
-    position: relative;
-    left: -700px;
-    top: 300px;
-    height: 100px;
-    
-<<<<<<< HEAD
-    
-}
-.h1:hover{
-    background-color: rgb(197, 127, 255);
-=======
->>>>>>> fa4511ffd53e985f27cee8f86d7026145c3debe0
-}
-
-.tue{
-    position: relative;
-    left: -470px;
-    top: 173px;
-    height: 100px;
-    font-size:inherit   ;
-}
-.tuetitle{
-<<<<<<< HEAD
-    font-size: 31px;  
-=======
-    font-size: 31px;
->>>>>>> fa4511ffd53e985f27cee8f86d7026145c3debe0
-}
-.wed{
-    
-    position: relative;
-    left: -230px;
-    top: 42px;
-    height: 100px;
-    font-size:inherit   ;
-}
-.wedtitle{
-    font-size: 30px;
-}
-
-.thur{
-    position: relative;
-    left: 20px;
-    top: -100px;
-    height: 50px;
-    font-size:inherit;
-    
-}
-.thurtitle{
-    font-size: 30px;
-}
-.thurhour{
-    position: relative;
-    top:-9px;
-}
-.fri{
-    position: relative;
-    left: 245px;
-    top: -200px;
-    height: 50px;
-    font-size:inherit;
-}
-.frititle{
-    font-size: 30px;
-}
-.frihour{
-    position: relative;
-    top:-20px;
-}
-
-.sat{
-    position: relative;
-    left: 470px;
-    top: -320px;
-    height: 50px;
-    font-size:inherit;
-}
-.sattitle{
-    font-size: 30px;
-}
-.sathour{
-    position: relative;
-    top:-41px;
-}
-
-.sun{
-    position: relative;
-    left: 710px;
-    top: -370px;
-    height: 50px;
-    font-size:inherit;
-}
-.suntitle{
-    font-size: 30px;
-    font-weight:bolder;
-}
-.sunhour{
-    position: relative;
-    top:29px;
-} */

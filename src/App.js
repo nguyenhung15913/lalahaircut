@@ -1,14 +1,11 @@
-
-
-import "./App.css"
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import PhotoGallery from "./pages/PhotoGallery";
-import Contact from "./pages/Contact"
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-   
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />} />

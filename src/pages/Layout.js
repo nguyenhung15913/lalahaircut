@@ -1,29 +1,32 @@
-import React from 'react'
-import Home from "../pages/Home"
-import Nav from "../components/Nav"
-import About from '../pages/About';
-import Services from "../pages/Services"
-import Hours from "../pages/Hours"
+import React from "react";
+import Home from "../pages/Home";
+import Nav from "../components/Nav";
+import About from "../pages/About";
+import Services from "../pages/Services";
+import Hours from "../pages/Hours";
+import Prices from "../pages/Prices";
+import Footer from "../components/Footer";
 
 function Layout() {
   return (
-  
     <div className="App">
-        {/* Nav */}
-        <Nav />
-        {/* Home */}
-        <Home />
-        {/* About */}
-        <About />
-        {/* Services */}
-        <Services />
-        {/* Hours */}
-        <Hours />
-        {/* Prices */}
-        {/* Contact */}
+      {/* Nav */}
+      <Nav />
+      {/* Home */}
+      <Home />
+      {/* About */}
+      <About />
+      {/* Services */}
+
+      <Prices />
+      <Services />
+      {/* Hours */}
+      <Hours />
+      {/* Prices */}
+      {/* Contact */}
+      <Footer />
     </div>
-  
-  )
+  );
 }
 
-export default Layout
+export default Layout;
