@@ -1,96 +1,108 @@
 import React, { useState, useCallback } from "react";
-import "./Gallery.css"
-
+import "./Gallery.css";
+import Nav from "../components/Nav";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
+import Footer from "../components/Footer";
 
 function PhotoGallery() {
+  const photos = [
+    {
+      src: "./hair-1.jpeg",
+      width: 1,
+      height: 1.5,
+      key: "1"
+    },
+    {
+      src: "./hair-2.jpeg",
+      width: 1,
+      height: 1,
+      key: "2"
+    },
+    {
+      src: "./hair-3.jpeg",
+      width: 1,
+      height: 1,
+      key: "3"
+    },
+    {
+      src: "./hair-4.jpeg",
+      width: 1,
+      height: 1,
+      key: "4"
+    },
+    {
+      src: "./hair-5.jpeg",
+      width: 1,
+      height: 1,
+      key: "5"
+    },
+    {
+      src: "./hair-6.jpeg",
+      width: 1,
+      height: 1,
+      key: "6"
+    },
+    {
+      src: "./hair-7.jpeg",
+      width: 1,
+      height: 1,
+      key: "7"
+    },
+    {
+      src: "./hair-7.jpeg",
+      width: 1,
+      height: 1,
+      key: "8"
+    },
+    {
+      src: "./hair-7.jpeg",
+      width: 1,
+      height: 1,
+      key: "9"
+    }
+  ];
 
-    const photos = [
-        {
-          src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-          width: 4,
-          height: 3
-        },
-        {
-          src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-          width: 1,
-          height: 1
-        },
-        {
-          src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-          width: 3,
-          height: 4
-        },
-        {
-          src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-          width: 3,
-          height: 4
-        },
-        {
-          src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-          width: 3,
-          height: 4
-        },
-        {
-          src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-          width: 4,
-          height: 3
-        },
-        {
-          src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-          width: 3,
-          height: 4
-        },
-        {
-          src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-          width: 4,
-          height: 3
-        },
-        {
-          src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-          width: 4,
-          height: 3
-        }
-      ];
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-    const [currentImage, setCurrentImage] = useState(0);
-    const [viewerIsOpen, setViewerIsOpen] = useState(false);
+  const openLightbox = useCallback((event, { photo, index }) => {
+    setCurrentImage(index);
+    setViewerIsOpen(true);
+  }, []);
 
-    const openLightbox = useCallback((event, { photo, index }) => {
-        setCurrentImage(index);
-        setViewerIsOpen(true);
-    }, []);
-
-    const closeLightbox = () => {
-        setCurrentImage(0);
-        setViewerIsOpen(false);
-    };
+  const closeLightbox = () => {
+    setCurrentImage(0);
+    setViewerIsOpen(false);
+  };
 
   return (
+    <div>
+      <Nav />
       <div className="image-gallery-container">
-            <div className="image-gallery">
-              <div className="gallery">
-                <Gallery photos={photos} onClick={openLightbox} />
-                  <ModalGateway>
-                      {viewerIsOpen ? (
-                      <Modal onClose={closeLightbox}>
-                          <Carousel
-                          currentIndex={currentImage}
-                          views={photos.map(x => ({
-                              ...x,
-                              srcset: x.srcSet,
-                              caption: x.title
-                          }))}
-                          />
-                      </Modal>
-                      ) : null}
-                  </ModalGateway>
-              </div>
-                
-            </div>
+        <div className="image-gallery">
+          <div className="gallery">
+            <Gallery photos={photos} onClick={openLightbox} />
+            <ModalGateway>
+              {viewerIsOpen ? (
+                <Modal onClose={closeLightbox}>
+                  <Carousel
+                    currentIndex={currentImage}
+                    views={photos.map((x) => ({
+                      ...x,
+                      srcset: x.srcSet,
+                      caption: x.title
+                    }))}
+                  />
+                </Modal>
+              ) : null}
+            </ModalGateway>
+          </div>
         </div>
-  )
+      </div>
+      <Footer />
+    </div>
+  );
 }
 
-export default PhotoGallery
+export default PhotoGallery;

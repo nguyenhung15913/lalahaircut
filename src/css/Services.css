@@ -1,31 +1,10 @@
-.priceimg{
-    height: 700px;
-    
-
-    background-color: rgb(232, 240, 237);
+.price {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-.firstservice{
-    position: relative;
-    left: -500px;
-    top: 300px;
-}
-.secondservice{
-    position: relative;
-    left: -200px;
-    top: 75px;
-}
-.thirdservice{
-    position: relative;
-    left: 100px;
-    top: -150px;
-}
-.fourthservice{
-    position: relative;
-    left: 400px;
-    top: -376px;
-}
-
-.frame-child{
-    height: 200px;
+.price img {
+    width: 80%;
 }

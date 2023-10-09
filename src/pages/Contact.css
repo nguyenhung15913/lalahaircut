@@ -1,0 +1,17 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container .map {
+    width: 50%;
+}
+
+.contact-box {
+    width: 40%;
+}
+
+.contact-box img {
+    width: 100%;
+}
