@@ -2,6 +2,8 @@ import React from 'react'
 import Home from "../pages/Home"
 import Nav from "../components/Nav"
 import About from '../pages/About';
+import Services from "../pages/Services"
+import Hours from "../pages/Hours"
 
 function Layout() {
   return (
@@ -14,7 +16,9 @@ function Layout() {
         {/* About */}
         <About />
         {/* Services */}
+        <Services />
         {/* Hours */}
+        <Hours />
         {/* Prices */}
         {/* Contact */}
     </div>

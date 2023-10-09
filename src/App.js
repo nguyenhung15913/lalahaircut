@@ -14,7 +14,6 @@ function App() {
         <Route path="/" element={<Layout />} />
         <Route path="/gallery" element={<PhotoGallery />} />
         <Route path="/contact" element={<Contact />} />
-        {/* <Route path="*" element={<Layout />} /> */}
       </Routes>
     </BrowserRouter>
   );
