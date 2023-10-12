@@ -6,6 +6,7 @@ import Services from "../pages/Services";
 import Hours from "../pages/Hours";
 import Prices from "../pages/Prices";
 import Footer from "../components/Footer";
+import PhotoGallery from "./PhotoGallery";
 
 function Layout() {
   return (
@@ -20,6 +21,8 @@ function Layout() {
 
       <Prices />
       <Services />
+      <PhotoGallery />
+      
       {/* Hours */}
       <Hours />
       {/* Prices */}
