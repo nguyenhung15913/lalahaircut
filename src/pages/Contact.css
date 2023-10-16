@@ -1,15 +1,16 @@
 .contact-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .contact-container .map {
-    width: 50%;
+    width: 90%;
 }
 
 .contact-box {
-    width: 40%;
+    width: 30%;
 }
 
 .contact-box img {
