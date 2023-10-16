@@ -78,10 +78,12 @@ function PhotoGallery() {
 
   return (
     <div>
-      <Nav />
       <div className="image-gallery-container">
+      {/* <h1>Gallery</h1> */}
         <div className="image-gallery">
+      
           <div className="gallery">
+            
             <Gallery photos={photos} onClick={openLightbox} />
             <ModalGateway>
               {viewerIsOpen ? (
@@ -100,7 +102,6 @@ function PhotoGallery() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

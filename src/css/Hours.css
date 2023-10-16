@@ -3,17 +3,29 @@
     gap:    1rem;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0;
+    padding: 10rem 3rem;
     margin: 0 auto;
-    background-color: rgb(251, 251, 251);
+    background-color: white;
+
 }
 .day {
-    padding: 1rem;
+    padding: 4rem 1rem;
     text-align: center;
     transition: background-color 0.3s;
     cursor: pointer;
-    background-color:rgb(242, 239, 239);
+    background-color:#878787;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    width: 20%;
+  }
+
+  .day p {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .day h1 {
+    font-size: 2rem;
+    color: #ec6ce4;
   }
   
   .day:hover {
