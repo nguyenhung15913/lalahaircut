@@ -6,7 +6,7 @@ export default function Services() {
       <img
         className="priceimg"
         src={require(`./../images/pricetest.png`)}
-      ></img>
+        alt="123"      ></img>
     </div>
   );
 }

@@ -1,9 +1,7 @@
 import React, { useState, useCallback } from "react";
 import "./Gallery.css";
-import Nav from "../components/Nav";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import Footer from "../components/Footer";
 
 function PhotoGallery() {
   const photos = [

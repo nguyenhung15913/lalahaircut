@@ -4,7 +4,7 @@ import "./Home.css"
 function Home () {
   return (
     <div className='home'>
-      <img src='/Banner.jpg' />
+      <img src='/Banner.jpg' alt='banner'/>
 
       <div className='popup-name'>
           <h1>La La HairCut</h1>
