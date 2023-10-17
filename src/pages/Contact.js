@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../components/Nav";
+
 import "./Contact.css";
 
 function Contact() {
@@ -14,6 +14,7 @@ function Contact() {
             allowfullscreen="true"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            title="iframe1"
           ></iframe>
         </div>
         <div className="contact-box">
