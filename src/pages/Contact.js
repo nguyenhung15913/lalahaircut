@@ -18,7 +18,7 @@ function Contact() {
           ></iframe>
         </div>
         <div className="contact-box">
-          <img src="contact.jpg" />
+          <img src="contact.jpg" alt="contact box"/>
         </div>
       </div>
     </div>
