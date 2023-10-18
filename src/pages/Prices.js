@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Prices.css";
 export default function Prices() {
   return (
-    <div className="services">
+    <div id="service" className="services">
       {/*first div */}
       <div className="service">
         <img

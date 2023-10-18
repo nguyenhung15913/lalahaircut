@@ -4,7 +4,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div>
+    <div id="contact" >
       <div className="contact-container">
         <div className="map">
           <iframe

@@ -2,7 +2,7 @@ import React from 'react'
 import "../css/Hours.css"
 export default function Hours() {
   return (
-    <div className='hours'>
+    <div id="hour" className='hours'>
           {/*first div */}
    <div className='day'>
     <h1 className='montitle'>MON</h1>
