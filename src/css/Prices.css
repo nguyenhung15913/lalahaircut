@@ -3,11 +3,11 @@
     gap: 3rem;
     justify-content: center;
     align-items: center;
-    padding: 12rem;
+    padding: 16rem;
     margin: 0 auto;
-    background-color: #878787;
-    background-image: url('/public/background-2.png');
-    background-position: inherit;
+    background:linear-gradient(0deg, rgba(3, 3, 3, 0.5), rgba(0, 0, 0, 0.5)), url('../../public/background-container.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .service {
     transition: background-color 0.3s;
