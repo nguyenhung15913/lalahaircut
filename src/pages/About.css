@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    align-items: center;
+  
   }
 
   .about-us h1 {
@@ -33,7 +33,21 @@
     width: 80%;
   }
 
+  @media ( max-width:821px){
+    .aboutus-image{
+       width: 1000px;
+       height: 600px;
+    }
+    .picture-frame{
+      width: 1000px;
+    
+    }
+    .Slogan{
+      width: 700px;
+      height: 700px;
+    }
 
+}
 
   
  

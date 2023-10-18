@@ -32,3 +32,13 @@
     background-color: #ec6ce4; /* Change the background color on hover */
     transform: scale(1.05); /* Add a slight scale effect on hover */
   }
+
+  @media ( max-width:821px){
+    .day{
+        width: 80%;
+    
+    }
+    .hours{
+        width: 60%;
+    }
+}

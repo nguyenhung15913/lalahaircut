@@ -9,3 +9,13 @@
 .price img {
     width: 70%;
 }
+@media ( max-width:821px){
+ .price{
+    width: 900px;
+    height: 700px;
+ }
+ .priceimg{
+    width: 1000px;
+    height: 700px;
+ }
+}

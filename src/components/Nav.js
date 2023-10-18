@@ -4,7 +4,7 @@ function Nav() {
   return (
     <div className="nav-bar">
       <div className="logo">
-        <img src="./logo.png" alt="logo" />
+        <img className="logo-image" src="./logo.png" alt="logo" />
       </div>
 
       <ul className="menu">
@@ -15,7 +15,7 @@ function Nav() {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#gallery">Photo Gallery</a>
+          <a href="#gallery"> Gallery</a>
         </li>
         <li>
           <a href="#service">Services</a>
