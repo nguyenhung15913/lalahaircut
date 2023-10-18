@@ -75,7 +75,7 @@ function PhotoGallery() {
   };
 
   return (
-    <div>
+    <div id="gallery">
       <div className="image-gallery-container">
       {/* <h1>Gallery</h1> */}
         <div className="image-gallery">

@@ -15,19 +15,19 @@ function Nav() {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="/gallery">Photo Gallery</a>
+          <a href="#gallery">Photo Gallery</a>
         </li>
         <li>
-          <a href="/">Services</a>
+          <a href="#service">Services</a>
         </li>
         <li>
-          <a href="/">Hours</a>
+          <a href="#hour">Hours</a>
         </li>
         <li>
-          <a href="/">Prices</a>
+          <a href="#prices">Prices</a>
         </li>
         <li>
-          <a href="/Contact">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>
