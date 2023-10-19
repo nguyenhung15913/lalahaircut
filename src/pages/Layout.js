@@ -20,7 +20,7 @@ function Layout() {
       <About />
       {/* Services */}
 
-      <Prices />
+    
       <Services />
       <PhotoGallery />
       

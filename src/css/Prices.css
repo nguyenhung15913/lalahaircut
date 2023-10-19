@@ -49,3 +49,26 @@
      }
 
 }
+@media ( max-width:415px){
+    .service{
+       width: 60px;
+       height:200px;
+   
+       
+    }
+    .frame-child{
+        width: 400px;
+        height:400px;
+     }
+     .service-text{
+        width: 120px;
+        height:50px;
+     }
+     .services{
+      
+      width: 100%;
+     
+   
+     }
+
+}
