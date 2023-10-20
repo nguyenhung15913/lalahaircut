@@ -36,7 +36,7 @@ function Contact() {
               <input type="text" />
             </div>
             <div className="input-item">
-              <label>Message</label>
+              <label>Messages</label>
               <textarea></textarea>
             </div>
             <div>
