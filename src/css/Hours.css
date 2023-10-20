@@ -1,6 +1,6 @@
 .hours{
     display: flex;
-    gap:    1.5rem;
+    gap: 1.5rem;
     justify-content: center;
     align-items: center;
     padding: 13rem 3rem;
@@ -9,18 +9,18 @@
 
 }
 .day {
-    padding: 3.5rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     transition: background-color 0.3s;
     cursor: pointer;
     background-color:#878787;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
     width: 15%;
   }
 
   .day p {
     font-size: 1.5rem;
-    color: white;
+    color: #ec6ce4;
   }
 
   .day h1 {
@@ -32,3 +32,32 @@
     background-color: #ec6ce4; /* Change the background color on hover */
     transform: scale(1.05); /* Add a slight scale effect on hover */
   }
+
+  @media ( max-width:821px){
+    .day{
+        width: 80%;
+    
+    }
+    .hours{
+        width: 60%;
+    }
+}
+
+@media ( max-width:415px){
+    .day{
+        
+        height: 100px;
+    
+    }
+    .day h1{
+        font-size: 10px;
+       
+    }
+    .day p{
+       font-size: 10px;
+    }
+    .hours{
+        width: 0%;
+    }
+
+}

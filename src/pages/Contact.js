@@ -20,30 +20,7 @@ function Contact() {
         <div className="contact-box">
           <img src="contact.jpg" alt="contact box"/>
         </div>
-        <div className="contact-form">
-          <h1>Contact Us</h1>
-          <form>
-            <div className="input-item">
-              <label>Name</label>
-              <input type="text" />
-            </div>
-            <div className="input-item"> 
-              <label>Phone Number</label>
-              <input type="text" />
-            </div>
-            <div className="input-item">
-              <label>Subject</label>
-              <input type="text" />
-            </div>
-            <div className="input-item">
-              <label>Message</label>
-              <textarea></textarea>
-            </div>
-            <div>
-              <button>Send</button>
-            </div>
-          </form>
-        </div>
+       
       </div>
     </div>
   );

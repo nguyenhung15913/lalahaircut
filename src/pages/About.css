@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    align-items: center;
+  
   }
 
   .about-us h1 {
@@ -33,7 +33,44 @@
     width: 80%;
   }
 
+  @media ( max-width:821px){
+    .aboutus-image{
+       width: 1000px;
+       height: 600px;
+    }
+    .picture-frame{
+      width: 1000px;
+    
+    }
+    .Slogan{
+      width: 700px;
+      height: 700px;
+    }
 
+}
+
+@media ( max-width:415px){
+  .aboutus-image{
+     width: 1000px;
+     height: 300px;
+  }
+  .picture-frame{
+    width: 1000px;
+  
+  }
+  .Slogan{
+    width: 700px;
+    height: 100px;
+  
+  }
+  .Slogan h1 {
+    font-size: 10px;
+  }
+  .Slogan p {
+    font-size: 13px;
+  }
+
+}
 
   
  

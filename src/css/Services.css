@@ -9,3 +9,32 @@
 .price img {
     width: 70%;
 }
+@media ( max-width:821px){
+ .price{
+    width: 900px;
+    height: 700px;
+ }
+ .priceimg{
+    width: 1000px;
+    height: 700px;
+ }
+}
+
+@media ( max-width:415px){
+    .price{
+        height: 100%;
+        width: 100%;
+    
+        /* Set the height to match that of the viewport. */
+      
+    
+        /* Set the width to match that of the viewport. */
+      
+    
+        /* Remove any browser-default margins. */
+    
+      
+      
+    }
+
+}
