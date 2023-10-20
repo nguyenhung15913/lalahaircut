@@ -4,7 +4,6 @@ import Nav from "../components/Nav";
 import About from "../pages/About";
 import Services from "../pages/Services";
 import Hours from "../pages/Hours";
-import Prices from "../pages/Prices";
 import Footer from "../components/Footer";
 import PhotoGallery from "./PhotoGallery";
 import Contact from "../pages/Contact"
@@ -29,7 +28,7 @@ function Layout() {
       {/* Prices */}
       {/* Contact */}
       <Contact />
-      <Footer />
+      <Footer /> 
     </div>
   );
 }
