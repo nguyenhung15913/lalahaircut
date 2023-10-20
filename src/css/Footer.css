@@ -15,3 +15,14 @@
     font-size: 2rem; 
     margin: 0 1rem; 
   }
+  @media ( max-width:415px){
+    .social-media-links{
+        height: 50px;
+        width: 100%;
+    
+  
+      
+      
+    }
+
+}
